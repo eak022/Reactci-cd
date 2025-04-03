@@ -24,7 +24,7 @@ jobs:
       - name: Build and push Docker image
         uses: mr-smithers-excellent/docker-build-push@v6
         with:
-          image: Reactci-cd # ไม่ต้องใส่ naruapon ซ้ำ
+          image: reactci-cd # ไม่ต้องใส่ naruapon ซ้ำ
           registry: ghcr.io/eak022
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
