@@ -11,7 +11,7 @@ const Index = () => {
     price: "",
     description: "",
     condition: "",
-    // postAd: "", // อย่าลืมเพิ่ม Backend
+    // postAd: "", // อย่าลืมเพิ่ม Backendนะ
   });
 
   const handlePostTypeChange = (e) => {

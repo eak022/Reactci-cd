@@ -13,6 +13,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.14",
     "axios": "^1.8.1",
+    "cicd-react": "file:",
     "install": "^0.13.0",
     "motion": "^12.4.7",
     "npm": "^11.1.0",
